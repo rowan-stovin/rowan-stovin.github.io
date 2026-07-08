@@ -1,6 +1,5 @@
 import './App.css'
 import Buttons from './components/Buttons.jsx'
-import Header from './components/Header.jsx'
 import About from './pages/about/About.jsx'
 import Contact from './pages/contact/Contact.jsx'
 import Home from './pages/home/Home.jsx'
@@ -11,7 +10,6 @@ import { Routes, Route } from 'react-router-dom'
 function App() {
   return (
     <>
-      <Header />
       <Buttons />
       <Routes>
         <Route path="/" element = {<Home />} />

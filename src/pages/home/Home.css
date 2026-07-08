@@ -1,0 +1,17 @@
+
+.about-grid{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.name{
+    text-align: left;
+}
+
